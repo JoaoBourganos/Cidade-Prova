@@ -18,7 +18,7 @@ namespace Cidades
             Console.WriteLine("1 – Atibaia\t2 – Bragança Paulista\t3 – Mairiporã\t4 – Nazaré\t5 – Terra Preta\t6 – Extrema\t7 – Vargem ");
             Console.WriteLine("Digite o código da cidade: ");
             codigo = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Digite o data: ");
+            Console.WriteLine("Digite a data 00/00/0000: ");
             var dA = Convert.ToDateTime(Console.ReadLine());
             dia = dA.Day;
             mes = dA.Month;
